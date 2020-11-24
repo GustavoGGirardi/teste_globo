@@ -5,7 +5,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import { format, compareAsc } from 'date-fns'
+import { format } from 'date-fns'
 
 import Modal from '../../components/Modal'
 
@@ -132,7 +132,6 @@ export default function PostCard(props) {
             <InputText
             placeholder='Texto'
             type='text'
-            placeholder='Texto'
             id="body"
             defaultValue={props.body}
             label="Title"

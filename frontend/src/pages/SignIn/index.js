@@ -5,7 +5,7 @@ import { IoMdHelpCircle } from 'react-icons/io';
 import { signInSchema, signInErrors } from '../../utils/yupSingIn';
 
 import { useAuth } from '../../hooks/auth';
-import { Content, Container, Background } from './styles';
+import { Content, Container } from './styles';
 
 
 import Input from '../../components/Input';

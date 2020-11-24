@@ -4,7 +4,6 @@ import Route from './Route';
 
 import SignIn from '../pages/SignIn';
 import Posts from '../pages/Posts';
-import Forgot from '../pages/Forgot';
 import SignUp from '../pages/SignUp';
 
 function Routes() {

@@ -8,7 +8,7 @@ import Modal from '../../components/Modal'
 import { ConteinerCard, Content, Container, ConteinerTitle, InputTitle, InputText, ContainerForm } from './styles'
 
 import { useAuth } from '../../hooks/auth';
-import { signInSchema, signInErrors } from '../../utils/yupSingIn';
+import { signInErrors } from '../../utils/yupSingIn';
 import { toast } from 'react-toastify';
 
 import api from '../../services/api'
