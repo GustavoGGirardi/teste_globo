@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-import { Content, Container, ConteinerCard } from './styles';
+import { Content, Container } from './styles';
 
 import Button from '../../components/Button';
 

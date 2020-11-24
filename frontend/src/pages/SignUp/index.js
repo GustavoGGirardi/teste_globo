@@ -4,7 +4,6 @@ import { Link, Redirect } from 'react-router-dom';
 import { IoMdHelpCircle } from 'react-icons/io';
 import { signInSchema, signInErrors } from '../../utils/yupSingIn';
 
-import { useAuth } from '../../hooks/auth';
 import { Content, Container } from './styles';
 
 import { toast } from 'react-toastify';
@@ -15,7 +14,6 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 function SignIn() {
-  const { signIn } = useAuth();
   const emailRef = useRef(null);
   const nameRef = useRef(null);
   const passwordRef = useRef(null);
@@ -60,7 +58,6 @@ function SignIn() {
   const signUp = useCallback(async ({ email, password, name }) => {
     try {
       const response = await api.post('/users', { email, password, name });
-
 
     } catch ({ response }) {
       const { error } = response.data;

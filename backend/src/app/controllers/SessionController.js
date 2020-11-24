@@ -22,7 +22,7 @@ class SessionController {
 
       return res.json({ user, token: User.generateToken(user) });
     } catch (err) {
-      return res.status(400).json({ error: "err.message" });
+      return res.status(400).json({ error: err.message });
     }
 
 
