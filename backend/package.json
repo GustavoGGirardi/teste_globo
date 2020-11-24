@@ -1,0 +1,37 @@
+{
+  "name": "teste_globo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GustavoGGirardi/teste_globo.git",
+  "author": "Gustavo Girardi <gustavo.girardi@trackage.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-handlebars": "^5.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "kue": "^0.11.6",
+    "mongoose": "^5.10.15",
+    "mongoose-paginate": "^5.0.3",
+    "nodemailer": "^6.4.16",
+    "nodemailer-express-handlebars": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0",
+    "sucrase": "^3.16.0"
+  }
+}
